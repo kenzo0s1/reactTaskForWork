@@ -1,0 +1,29 @@
+.input{
+  display: flex;
+  justify-content: center;
+  padding-top: 25px ;
+  flex-direction: column;
+  align-items: center;
+
+  h6{
+    padding: 0;
+    margin: 0;
+  }
+  input{
+    padding: 5px;
+  }
+  input{
+    border-radius: 5px;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    background: whitesmoke;
+  }
+
+  input:focus {
+    border: 3px solid #555;
+    border-radius: 5px;
+  }
+}

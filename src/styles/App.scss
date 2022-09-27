@@ -1,0 +1,8 @@
+#app{
+  display: grid;
+  @media screen and (max-width: 1000px) {
+    grid-template-columns: 100%;
+
+  }
+  grid-template-columns: 70% 30%;
+}
